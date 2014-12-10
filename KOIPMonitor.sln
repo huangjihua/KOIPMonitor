@@ -1,0 +1,56 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 11.00
+# Visual Studio 2010
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "KOIPMonitor", "KOIPMonitor\KOIPMonitor.csproj", "{4A2675C2-0B86-4ACF-9150-B36A9D4C1282}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "ServMonitor", "ServMonitor\ServMonitor.csproj", "{E6971BCF-E466-405B-8FA0-34BD1AA0457E}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Kernel", "Kernel\Kernel.csproj", "{B7BD6330-9523-4BAC-BEE8-A00BEB219C6F}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "Commonality", "Commonality\Commonality.csproj", "{31C3ABB4-3E1B-49DC-99AE-23DDC5E30BB6}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlDAL", "MySqlDAL\MySqlDAL.csproj", "{A9CE7291-4AD8-40B4-A2AF-1DFAA7B4E716}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "MySqlHeader", "MySqlHeader\MySqlHeader.csproj", "{862AF880-A5C4-45B4-83F2-3C009299A9CD}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "DALPages", "DALPages\DALPages.csproj", "{CC3C6DF5-A662-4041-9C2A-0F4FCB5EDAEB}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{4A2675C2-0B86-4ACF-9150-B36A9D4C1282}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{4A2675C2-0B86-4ACF-9150-B36A9D4C1282}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{4A2675C2-0B86-4ACF-9150-B36A9D4C1282}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{4A2675C2-0B86-4ACF-9150-B36A9D4C1282}.Release|Any CPU.Build.0 = Release|Any CPU
+		{E6971BCF-E466-405B-8FA0-34BD1AA0457E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E6971BCF-E466-405B-8FA0-34BD1AA0457E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E6971BCF-E466-405B-8FA0-34BD1AA0457E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E6971BCF-E466-405B-8FA0-34BD1AA0457E}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B7BD6330-9523-4BAC-BEE8-A00BEB219C6F}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B7BD6330-9523-4BAC-BEE8-A00BEB219C6F}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B7BD6330-9523-4BAC-BEE8-A00BEB219C6F}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B7BD6330-9523-4BAC-BEE8-A00BEB219C6F}.Release|Any CPU.Build.0 = Release|Any CPU
+		{31C3ABB4-3E1B-49DC-99AE-23DDC5E30BB6}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{31C3ABB4-3E1B-49DC-99AE-23DDC5E30BB6}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{31C3ABB4-3E1B-49DC-99AE-23DDC5E30BB6}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{31C3ABB4-3E1B-49DC-99AE-23DDC5E30BB6}.Release|Any CPU.Build.0 = Release|Any CPU
+		{A9CE7291-4AD8-40B4-A2AF-1DFAA7B4E716}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{A9CE7291-4AD8-40B4-A2AF-1DFAA7B4E716}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{A9CE7291-4AD8-40B4-A2AF-1DFAA7B4E716}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{A9CE7291-4AD8-40B4-A2AF-1DFAA7B4E716}.Release|Any CPU.Build.0 = Release|Any CPU
+		{862AF880-A5C4-45B4-83F2-3C009299A9CD}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{862AF880-A5C4-45B4-83F2-3C009299A9CD}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{862AF880-A5C4-45B4-83F2-3C009299A9CD}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{862AF880-A5C4-45B4-83F2-3C009299A9CD}.Release|Any CPU.Build.0 = Release|Any CPU
+		{CC3C6DF5-A662-4041-9C2A-0F4FCB5EDAEB}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{CC3C6DF5-A662-4041-9C2A-0F4FCB5EDAEB}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{CC3C6DF5-A662-4041-9C2A-0F4FCB5EDAEB}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{CC3C6DF5-A662-4041-9C2A-0F4FCB5EDAEB}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+EndGlobal

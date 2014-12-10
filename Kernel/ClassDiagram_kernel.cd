@@ -1,0 +1,117 @@
+﻿<?xml version="1.0" encoding="utf-8"?>
+<ClassDiagram MajorVersion="1" MinorVersion="1">
+  <Class Name="Kernel.AsynTCPSocket">
+    <Position X="0.5" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABAAAAAACAQAACCAAAAEAgASAAAgCAAIAAAEAAAAAY=</HashCode>
+      <FileName>AsynTCPSocket.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.TCPClientStateObject">
+    <Position X="2.75" Y="0.5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AABACAAACAgBAAAEFmEAAkBAAkAAAAACEgECCQAgAAA=</HashCode>
+      <FileName>TCPClientStateObject.cs</FileName>
+      <NewMemberFileName>StateObject.cs</NewMemberFileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.ConsoleManage">
+    <Position X="5.25" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAABAAAAAAAAAAEAAAA=</HashCode>
+      <FileName>ConsoleManage.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.RandomSession">
+    <Position X="5.25" Y="3.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAEAA=</HashCode>
+      <FileName>RandomSession.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.DiskIO">
+    <Position X="7" Y="2.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAACAAAAAACAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>DiskIO.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.Tools">
+    <Position X="7.5" Y="0.75" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAACAAAAAAAAAAAAgICBAAAAAAAAAAAAAIAA=</HashCode>
+      <FileName>Tools.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.AsynUDPServer">
+    <Position X="5.25" Y="5" Width="2" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAACAQAAAAIAAAAABBAAAAgBAAIAAAQAAAAAI=</HashCode>
+      <FileName>AsynUDPServer.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.UDPServerStateObject">
+    <Position X="7.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAQAAAgAECABAAQAACFAAhBAAAACAAAAEAAAAQAAAAA=</HashCode>
+      <FileName>UDPServerStateObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.AsynUDPClient">
+    <Position X="10" Y="0.5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAEAAQAAAAYAJAAIDBAAAAQAAAAAgAAACAICA=</HashCode>
+      <FileName>AsynUDPClient.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Class Name="Kernel.UDPClientStateObject">
+    <Position X="11.75" Y="3.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAgAAAAAAAAAAAEAAABAAAACAAAAEAAAAQAAAAA=</HashCode>
+      <FileName>UDPClientStateObject.cs</FileName>
+    </TypeIdentifier>
+  </Class>
+  <Enum Name="Kernel.ErrorLevel">
+    <Position X="5.25" Y="2" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAIAAAAAAAAAAAAAAAAAAAAAAAAEAAACAAAAAAAA=</HashCode>
+      <FileName>ErrorLevel.cs</FileName>
+    </TypeIdentifier>
+  </Enum>
+  <Delegate Name="Kernel.AsynchronousSocketListenerReceiveEvent">
+    <Position X="7.25" Y="4" Width="2.75" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>AsynchronousSocketListenerReceiveEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Kernel.AsynUDPServerReceiveEvent">
+    <Position X="8" Y="5" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAgAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AsynUDPServerReceiveEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Kernel.AsynUDPClientReceiveEvent">
+    <Position X="9.75" Y="6" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AACAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA=</HashCode>
+      <FileName>AsynUDPClientReceiveEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Kernel.AsynchronousServerExceptionHandlingEvent">
+    <Position X="11.75" Y="6.25" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACA=</HashCode>
+      <FileName>AsynchronousServerExceptionHandlingEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Delegate Name="Kernel.AsynTCPClientReceiveEvent">
+    <Position X="10.75" Y="8" Width="1.5" />
+    <TypeIdentifier>
+      <HashCode>AAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAACAAAAAAAA=</HashCode>
+      <FileName>AsynTCPClientReceiveEvent.cs</FileName>
+    </TypeIdentifier>
+  </Delegate>
+  <Font Name="Tahoma" Size="8.25" />
+</ClassDiagram>
