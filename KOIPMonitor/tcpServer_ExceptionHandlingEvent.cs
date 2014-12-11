@@ -11,7 +11,7 @@ namespace KOIPMonitor
         public static void ReceiveEvent(StateObject requset)
         {
             try
-            {
+            { 
 
                 if (requset == null)
                 {
