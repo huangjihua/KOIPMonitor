@@ -32,8 +32,11 @@
     <UpdatePeriodically>false</UpdatePeriodically>
     <UpdateRequired>false</UpdateRequired>
     <MapFileExtensions>true</MapFileExtensions>
+    <TargetCulture>zh</TargetCulture>
+    <ProductName>服务监听工具</ProductName>
+    <PublisherName>huangjihua</PublisherName>
     <AutorunEnabled>true</AutorunEnabled>
-    <ApplicationRevision>1</ApplicationRevision>
+    <ApplicationRevision>2</ApplicationRevision>
     <ApplicationVersion>1.0.0.%2a</ApplicationVersion>
     <UseApplicationTrust>false</UseApplicationTrust>
     <PublishWizardCompleted>true</PublishWizardCompleted>
@@ -177,6 +180,12 @@
       <Project>{E6971BCF-E466-405B-8FA0-34BD1AA0457E}</Project>
       <Name>ServMonitor</Name>
     </ProjectReference>
+  </ItemGroup>
+  <ItemGroup>
+    <Content Include="bin\Debug\server.xml" />
+    <Content Include="bin\Debug\ServInfo.xml" />
+    <Content Include="bin\Release\server.xml" />
+    <Content Include="bin\Release\ServInfo.xml" />
   </ItemGroup>
   <Import Project="$(MSBuildToolsPath)\Microsoft.CSharp.targets" />
   <!-- To modify your build process, add your task inside one of the targets below and uncomment it. 

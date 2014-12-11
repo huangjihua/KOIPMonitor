@@ -1,0 +1,14 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+  <Server>
+    <ID>1</ID>
+    <IP>192.168.3.34</IP>
+    <PORT>50002</PORT>
+    <UPID>2</UPID>
+    <UPIP>192.168.3.237</UPIP>
+    <UPPORT>50001</UPPORT>
+    <DBCONN>Server=192.168.3.46;Database=db_ising99server;Uid=root;Pwd=111111;</DBCONN>
+    <ISCONUP>1</ISCONUP>
+    <ISAUTOSTART>1</ISAUTOSTART>
+  </Server>
+</DocumentElement>

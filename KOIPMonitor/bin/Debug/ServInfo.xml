@@ -1,0 +1,19 @@
+<?xml version="1.0" standalone="yes"?>
+<DocumentElement>
+<!-- 
+ <ServInfo>
+    <ServName>Tomcat7</ServName>
+    <ServPath>d:\apache24\bin\httpd.exe -k runservice</ServPath>
+    <ID>1</ID>
+    <TYPE>1</TYPE>
+	<APPTYPE>1</APPTYPE>
+  </ServInfo>
+  -->
+    <ServInfo>
+    <ServName>TdxW</ServName>
+    <ServPath>D:\new_zxjt_v6\TdxW.exe</ServPath>
+    <ID>1</ID>
+    <TYPE>1</TYPE>
+	<APPTYPE>0</APPTYPE>
+  </ServInfo>
+</DocumentElement>
