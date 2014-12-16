@@ -4554,7 +4554,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">Arguments</col>
 		<col def="s72">Component_</col>
 		<col def="L255">Description</col>
-		<row><td>NewServiceInstall1</td><td>KOIPMonitor</td><td>##ID_STRING5##</td><td>16</td><td>2</td><td>32768</td><td/><td/><td/><td/><td/><td>KOIPMonitor.exe</td><td>##ID_STRING6##</td></row>
+		<row><td>NewServiceInstall1</td><td>KOIPMonitor</td><td>##ID_STRING5##</td><td>16</td><td>2</td><td>32768</td><td/><td/><td/><td/><td>1</td><td>KOIPMonitor.exe</td><td>##ID_STRING6##</td></row>
 	</table>
 
 	<table name="Shortcut">
