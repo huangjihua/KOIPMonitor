@@ -1,28 +1,23 @@
-﻿
+﻿using Kernel;
+using ServMonitor;
 using System;
 using System.Collections.Generic;
 using System.ComponentModel;
 using System.Data;
-using System.Text;
 using System.Diagnostics;
-using System.Threading;
-using ServMonitor;
-using Kernel;
 using System.ServiceProcess;
+using System.Text;
+using System.Threading;
 
 namespace KOIPMonitor
 {
-    class Program
+    partial class ServiceKOIPM : ServiceBase
     {
-        //private static ManualResetEvent _allDone = new ManualResetEvent(false);
-        static void Main(string[] args)
+        public ServiceKOIPM(string[] args)
         {
-            //ServiceBase[] ServicesToRun;
-            //ServicesToRun = new ServiceBase[]{
-            //   new ServiceKOIPM(args)
-            //};
-            //ServiceBase.Run(ServicesToRun);
-            
+            InitializeComponent();
+
+
             try
             {
 
@@ -133,7 +128,23 @@ namespace KOIPMonitor
                 MonitorInterface.OptEvent += new ServMonitorOptHandlingEvent(ServMonitor_OptHandlingEvent.OptEvent);
                 MonitorInterface MonInterface = new MonitorInterface();
                 MonInterface.Start(CommClass.OStype.ToString(), CommClass.ISAUTOSTART);
+
+
+
             }
+        }
+
+        protected override void OnStart(string[] args)
+        {
+            // TODO:  在此处添加代码以启动服务。
+            ServiceKOIPM sk = new ServiceKOIPM(args);
+            
+            
+        }
+
+        protected override void OnStop()
+        {
+            // TODO:  在此处添加代码以执行停止服务所需的关闭操作。
         }
     }
 }

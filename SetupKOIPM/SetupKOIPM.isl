@@ -1926,6 +1926,7 @@
 		<row><td>KOIPMonitor.exe</td><td/></row>
 		<row><td>PROJECT_ASSISTANT_DEFAULT_FEATURE</td><td>AlwaysInstall</td></row>
 		<row><td>PROJECT_ASSISTANT_FEATURES</td><td>NonSelectable</td></row>
+		<row><td>RegistryPageEnabled</td><td>Yes</td></row>
 	</table>
 
 	<table name="ISBillBoard">
@@ -3792,6 +3793,10 @@
 		<row><td>ID_STRING6</td><td>2052</td><td>KOIPMonitor</td><td>0</td><td/><td>-2044555792</td></row>
 		<row><td>ID_STRING7</td><td>1033</td><td>KOIPMonitor</td><td>0</td><td/><td>-2044545007</td></row>
 		<row><td>ID_STRING7</td><td>2052</td><td>KOIPMonitor</td><td>0</td><td/><td>-2044545007</td></row>
+		<row><td>ID_STRING8</td><td>1033</td><td>KOIPMonitor</td><td>0</td><td/><td>-1910330159</td></row>
+		<row><td>ID_STRING8</td><td>2052</td><td>KOIPMonitor</td><td>0</td><td/><td>-1910330159</td></row>
+		<row><td>ID_STRING9</td><td>1033</td><td>KOIPMonitor</td><td>0</td><td/><td>-1910330159</td></row>
+		<row><td>ID_STRING9</td><td>2052</td><td>KOIPMonitor</td><td>0</td><td/><td>-1910330159</td></row>
 		<row><td>IIDS_UITEXT_FeatureUninstalled</td><td>2052</td><td>系统将不安装此功能。</td><td>0</td><td/><td>-2044535504</td></row>
 	</table>
 
@@ -4037,7 +4042,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<row><td>ISTheme</td><td>InstallShield Blue.theme</td></row>
 		<row><td>ISUSLock</td><td>{AEEC1B5B-A244-4A6E-B243-CE060B211BC3}</td></row>
 		<row><td>ISUSSignature</td><td>{C1C572C7-B13F-4392-AE6E-28572B645AC1}</td></row>
-		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewUI,viewRealSetupDesign,viewProject,viewSetupDesign,viewUpgradePaths,viewUpdateService,viewAppFiles,viewObjects,viewServices,viewRelease,viewCustomActions</td></row>
+		<row><td>ISVisitedViews</td><td>viewAssistant,viewISToday,viewUI,viewRealSetupDesign,viewProject,viewSetupDesign,viewUpgradePaths,viewUpdateService,viewAppFiles,viewObjects,viewServices,viewRelease,viewCustomActions,viewRegistry</td></row>
 		<row><td>Limited</td><td>1</td></row>
 		<row><td>LockPermissionMode</td><td>1</td></row>
 		<row><td>MsiExecCmdLineOptions</td><td/></row>
@@ -4478,6 +4483,13 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S0">Value</col>
 		<col def="s72">Component_</col>
 		<col def="I4">ISAttributes</col>
+		<row><td>_72812541354E921D9E8FE0D631F98A34</td><td>2</td><td>SYSTEM\CurrentControlSet\services\KOIPM</td><td>Type</td><td>#16</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_78455BDD15762FC4B4E8BA2DA63B1A60</td><td>2</td><td>SYSTEM\CurrentControlSet\services\KOIPM</td><td>Start</td><td>#2</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_8A8734BD65F43E9695A790E9514D3557</td><td>2</td><td>SYSTEM\CurrentControlSet\services\KOIPM</td><td>DisplayName</td><td>KOIPMonitor</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_9317B367902C681362A9C5204C9FD482</td><td>2</td><td>SYSTEM\CurrentControlSet\services\KOIPM</td><td>Description</td><td>KOIPMonitor</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_A90E019823435B01771655786639C404</td><td>2</td><td>SYSTEM\CurrentControlSet\services\KOIPM</td><td>ErrorControl</td><td>#1</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_B896E636D3A2044A5836520D651C517F</td><td>2</td><td>SYSTEM\CurrentControlSet\services\KOIPM</td><td>ImagePath</td><td>D:\KOIPMonitor\KOIPMonitor.exe</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
+		<row><td>_FF17DC25633CF1A4C7DEF670AE6FF6BB</td><td>2</td><td>SYSTEM\CurrentControlSet\services\KOIPM</td><td>ObjectName</td><td>LocalSystem</td><td>ISX_DEFAULTCOMPONENT</td><td/></row>
 	</table>
 
 	<table name="RemoveFile">
@@ -4554,7 +4566,7 @@ UwBpAG4AZwBsAGUASQBtAGEAZwBlAAEARQB4AHAAcgBlAHMAcwA=
 		<col def="S255">Arguments</col>
 		<col def="s72">Component_</col>
 		<col def="L255">Description</col>
-		<row><td>NewServiceInstall1</td><td>KOIPMonitor</td><td>##ID_STRING5##</td><td>16</td><td>2</td><td>32768</td><td/><td/><td/><td/><td>1</td><td>KOIPMonitor.exe</td><td>##ID_STRING6##</td></row>
+		<row><td>NewServiceInstall1</td><td>KOIPMonitor</td><td>##ID_STRING8##</td><td>16</td><td>2</td><td>0</td><td/><td/><td/><td/><td>2</td><td>KOIPMonitor.exe</td><td>##ID_STRING9##</td></row>
 	</table>
 
 	<table name="Shortcut">
